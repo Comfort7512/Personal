@@ -1,0 +1,170 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #131313;
+}
+header{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  
+}
+.primary-navigation{
+  /* padding: 1rem 2rem; */
+  display: flex;
+  gap: 3rem;
+  /* margin-top: 2rem; */
+  align-items: center;
+}
+.primary-navigation a{
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.primary-navigation .logo{
+  color: #D45AFF;
+   font-family: "Concert One", sans-serif;
+   font-size: 43px;
+}
+.button{
+  background-color: #202020;
+  padding:1rem 2rem;
+  border-style: none;
+  border-radius: 20px;
+}
+.button i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+ text-decoration: none;
+
+}
+
+ /*  HERO HERO HERO HERO SECTION */
+
+ .hero-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+ }
+ .hero-section h1{
+  font-size: 5rem;
+  color: white;
+  font-family: "Concert One";
+
+ }
+ .hero-section h3{
+  background-color: #1E1E1E;
+  padding: 1rem;
+  color: #fff;
+  font-family: "Poppins";
+  transform: deg(-5deg)  skew(-5deg);
+ }
+ .hero-section button{
+  padding: 1rem;
+  background-color: #D45AFF;
+  border-style: none;
+  height: 3rem;
+  width:15rem ;
+  color: #131313;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relatives;
+  z-index: 10;
+ }
+ .hero-section button a{
+  color: #131313;
+  text-decoration: none;
+  font-family: "Concert One";
+  font-size: 1.2rem;
+ }
+
+
+    /* CARD CARD CARD CARD SECTION */
+
+.cards{
+  background-color: #191919;
+  display: flex;
+  gap: 2rem;
+  height: 50vh;
+  padding: 3rem;
+  justify-content: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+  
+}
+.card{
+  background-color: #212121;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  font-family: "Poppins";
+  position: relative;
+  padding: 20px;
+}
+ .card .quote-1{
+  position: absolute;
+  color: #D45AFF;
+  left: -5px;
+  top: 20px;
+}
+.card .quote-2{
+  position: absolute;
+  right: -5px;
+  bottom: 30px;
+  color: #D45AFF;
+}
+
+.card img{
+  border-radius: 50%;
+  position: absolute;
+  top: -25px;
+}
+.card p{
+  margin-top: 25px;
+  max-width: 250px;
+  font-family: "Concert One";
+}
+.card:nth-child(4){
+  align-self: flex-end;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 760px){
+  .hero-section h1{
+    line-height: 1;
+  }
+
+  .hero-image{
+   width: 400px;
+   height: 400px;
+  }
+  .card{
+    width: 500px;
+    padding: 1rem 2rem;
+  }
+ 
+ .card p{
+  max-width: 1000px;
+  text-align: center;
+ }
+
+}
+
+

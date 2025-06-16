@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  background-color: #FFEE93;
+  font-family: 'Bebas Kai', sans-serif; 
+  
+}
+body{
+
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  gap: 5rem;
+}
+nav a{
+  color: #000;
+  text-decoration: none;
+}
+.part-1{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.part-2{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.logo{
+font-family: "Contrail One", sans-serif;
+font-size: 2rem;
+}
+
+
+.hero-section{
+  background-color: #FFEE93;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.hero-section h1{
+  font-family: 'Bebas Kai', sans-serif; 
+  font-size: 4rem;
+  letter-spacing: 7px;
+}
+.hero-section p{
+  font-family: "Inter", sans-serif;
+  padding: 1.5rem;
+}
+.hero-section img{
+  display: block;
+}
+
+.hero-section button{
+  background-color: black;
+  padding: 1.3rem;
+  border-radius: 5px;
+  border-bottom-right-radius: 30px;
+  border-style: none;
+  position: absolute;
+  bottom: -18px;
+  
+}
+.hero-section button{
+  display: flex;
+  justify-content: center;
+  padding: 1.3rem;
+}
+.hero-section button a{
+color: white;
+text-decoration: none;
+font-size: 1.2rem;
+}
+.hero-section button i{
+  width: 50px;
+}
+
+  /* 
+  SPONSORS SPONSORS SPONSORS
+ */
+ 
+ .sponsors h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 1rem;
+  font-family: 'Bebas Kai', sans-serif;
+ }
+ .sponsors hr{
+  width: 110px;
+  height: 0.6px;
+  border: none;
+  background-color: #000;
+ }
+
+ .sponsors-icons{
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  padding: 1.6rem ;
+  padding-bottom: 5rem;
+ }
+ .sponsors-icons i{
+  font-size: 3rem;
+ }
+
+ .cards{
+  background-color: #eaeaea;
+  padding: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3,300px);
+  gap: 3rem;
+  justify-content: center;
+  align-content: center;
+ }
+
+ .card-one{
+  background-color: white;
+  width: 300px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+   gap: 1.5rem; 
+     clip-path: polygon(
+    0% 0%,     /* Top-left corner */
+    100% 0%,    /* Top-right corner */
+    100% 80%,   /* Start of cut (adjust 80% for depth) */
+    80% 100%,   /* End of cut (adjust 90% for angle) */
+    0% 100%     /* Bottom-left corner */
+  );
+ }
+ .card-one img{
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+ }
+ .card-one h2 span{
+
+  font-size: 0.5rem;
+  display: inline;
+  background-color: #FFEE93;
+ }
+ .card-one p{
+  text-align: center;
+  padding: 0.3rem;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+ }
+ .card-one button{
+  padding: 1rem;
+  background-color: transparent;
+  border: 1px black solid;
+  
+ }
+ .card-one button a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Bebas Kai', sans-serif;
+  font-size: 1.3rem;
+ }
